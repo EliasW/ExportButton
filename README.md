@@ -1,16 +1,18 @@
 <h2><strong> Purpose and Description </strong> </h2>
 
-<p> <strong> ExportButton <strong> is a visualization extension allowing you to export data without showing the underlying chart, the extension works either by inserting the id of an object or by inserting the dimensions and measures that you want to download. </p>
+<p> <strong> ExportButton <strong> is a visualization extension allowing you to export data without showing the underlying chart, the extension works either by inserting the id of a chart, a chart that is defined in the app or by inserting the dimensions and measures that you want to download. </p>
 
+<img src="https://github.com/EliasW/ExportButton/blob/master/docs/image_ObjectID.png" alt="[Export Button]">
 <h2><strong> Why? </strong> </h2>
 <p>Sometimes you need only to download data from data model without creating an object or you may use objects inside containers that can not allow you to download data, in this case you may use this extension by putting little button onto a screen.
 </p>
 
 <h2><strong>  Screenshots </strong> </h2>
 <ol type="1">
-<li>In case you want to download the data of chart. </li>
-
+<li>In case you want to download the data of chart, a chart defined in the app. </li>
+<img src="https://github.com/EliasW/ExportButton/blob/master/docs/image_ObjectID.png" alt="[Export Button by ID]">
 <li>Define dimensions and measures as you would do for every other extension/charts </li>
+<img src="https://github.com/EliasW/ExportButton/blob/master/docs/image_DimMes.png" alt="[Export Button By Dimensione and Measure]">
 </ol>
 
 <h2><strong>  Configuration </strong> </h2> <br>
@@ -20,6 +22,7 @@
 
 <h2><strong>  Export definition </strong> </h2>
 <p> Define the final output of the export: </p>
+<img src="https://github.com/EliasW/ExportButton/blob/master/docs/image_ExportSetting.png" alt="[Export Settings]">
 
 <p>•	Format - Select on of the following values (defaults ot "Open XML (Excel)): </p>
 <ol type="1">
